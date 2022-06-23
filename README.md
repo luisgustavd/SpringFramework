@@ -12,5 +12,4 @@ de usuário<html>.
  Para fazer uso do código é somente necesssário rodar a aplicação com as depedências carregadas por uma IDE.
 
  
- ###########################################################################################################
- IDEA utilizada para desenvolvimento: IntelliJ IDEA
+ <strong>IDEA utilizada para desenvolvimento: IntelliJ IDEA</strong>
