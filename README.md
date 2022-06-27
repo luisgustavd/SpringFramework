@@ -8,7 +8,7 @@ Aplicações em Spring Framework e Java
 Este projeto simula uma lista de emprego com os seguintes funcionalidades:lista de empregos e adicionar empregos.
 Utilizou-se a versão 17 do Java, Spring Framework, Thymeleaf e ainda Materialize.css para customização das páginas
 de usuário<html>.
- 
+ <br><br>
  Para fazer uso do código é somente necesssário rodar a aplicação com as depedências carregadas por uma IDE. <br>
  1.Ao rodar a aplicação, acessar o endereço de URL: https:localhost:8080/    --> para adicionar vaga de emprego.<br> 
  2.Depois disso, acessar o banco de dados da aplicação: https:localhost:8080/h2-console   <br>
