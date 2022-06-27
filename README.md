@@ -1,8 +1,6 @@
 # SpringFramework
 Aplicações em Spring Framework e Java 
 
-## Webservice utlizando Spring Framework e Thymeleaf || Materialize.css
-
 #### Detalhes:
 Este projeto simula um sistema de cadastro de empregos com as seguintes funcionalidades: 
 - listagem
