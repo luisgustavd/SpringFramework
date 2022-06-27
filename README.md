@@ -9,7 +9,7 @@ Este projeto simula uma lista de emprego com os seguintes funcionalidades:lista 
 Utilizou-se a versão 17 do Java, Spring Framework, Thymeleaf e ainda Materialize.css para customização das páginas
 de usuário<html>.
  
- Para fazer uso do código é somente necesssário rodar a aplicação com as depedências carregadas por uma IDE.
+ Para fazer uso do código é somente necesssário rodar a aplicação com as depedências carregadas por uma IDE. <br>
  1.Ao rodar a aplicação, acessar o endereço de URL: https:localhost/    --> para adicionar vaga de emprego.<br> 
  2.Depois disso, acessar o banco de dados da aplicação: https:localhost/h2-console   <br>
  3.Na página da aplicação é necessário colocar a seguinte informação: jdbc:h2:mem:test_job   no campo JDBC URL: |                  |<br>
