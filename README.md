@@ -1,20 +1,23 @@
 # SpringFramework
 Aplicações em Spring Framework e Java 
- 
- 
-<h2>Webservice utlizando Spring Framework e Thymeleaf || Materialize.css</h2>
 
-<h4>Detalhes:</h4>
-Este projeto simula uma lista de emprego com os seguintes funcionalidades:lista de empregos e adicionar empregos.
-Utilizou-se a versão 17 do Java, Spring Framework, Thymeleaf e ainda Materialize.css para customização das páginas
-de usuário<html>.
- <br><br>
- Para fazer uso do código é somente necesssário rodar a aplicação com as depedências carregadas por uma IDE. <br>
- 1.Ao rodar a aplicação, acessar o endereço de URL: http:localhost:8080/    --> para adicionar vaga de emprego.<br> 
- 2.Depois disso, acessar o banco de dados da aplicação: http:localhost:8080/h2-console   <br>
- 3.Na página da aplicação é necessário colocar a seguinte informação: jdbc:h2:mem:test_job   no campo JDBC URL: |                  |<br>
- 4.Clique em "Testar Conexão" e com sucesso, clicar em "Conectar". <br>
- 5.Você terá acesso as todas informações colocadas na aplicação em tabela. <br>
+#### Detalhes:
+Este projeto simula um sistema de cadastro de empregos com as seguintes funcionalidades: 
+- listagem
+- cadastro
 
- 
- <strong>IDEA utilizada para desenvolvimento: IntelliJ IDEA</strong>
+#### Stack:
+Utilizou-se:
+- Java 17
+- Spring Framework para o MVC
+- Thymeleaf para renderização das páginas
+- Materialize.css para customização das páginas
+
+#### Executando:
+Apenas faça a Build do projeto, e dê Run na main. Em seguida:
+1. Acesse a aplicação com a seguinte URL: http:localhost:8080/
+2. Cadastre um novo emprego; se bem-sucedido, será redirecionado à listagem
+3. Depois disso, acesse o banco de dados em: http:localhost:8080/h2-console
+4. Nesta aba, sete o campo "JDBC URL" com "jdbc:h2:mem:test_job"
+5. Clique em "Testar Conexão" e com sucesso, clique em "Conectar"
+6. Isso permitirá acessar todos os registros salvos em memória na aplicação
